@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git://github.com/tool/PDKeychainBindingsController.git", :tag => "0.1" }
   s.platform     = :ios, '4.0'
   s.source_files  = 'PDKeychainBindingsController/*.{h,m}'
+  s.requires_arc = true
 end
